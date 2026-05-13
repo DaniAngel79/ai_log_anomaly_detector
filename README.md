@@ -1,0 +1,1 @@
+"Prueba de Concepto (PoC) para la detección automática de anomalías en logs de sistema utilizando modelos de lenguaje (Transformers). Incluye un motor de detección híbrido con fallback basado en firmas para garantizar la disponibilidad del análisis."
