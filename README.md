@@ -1,11 +1,9 @@
-AI Log Anomaly Detector (PoC)
-Descripción Técnica
+# AI Log Anomaly Detector (PoC)
 
-Prueba de Concepto (PoC) para la detección automática de anomalías en logs de sistema utilizando modelos de lenguaje basados en Transformers. Este proyecto implementa un motor de análisis híbrido que combina la potencia de la Inteligencia Artificial con un sistema de fallback basado en firmas para garantizar la disponibilidad y precisión del análisis incluso en entornos restringidos.
-Características Principales
+### Technical Description
+Proof of Concept (PoC) for automated anomaly detection in system logs using **Transformer-based** language models. This project implements a hybrid analysis engine that combines the power of AI with a **signature-based fallback** system to ensure analysis availability and accuracy even in restricted environments.
 
-    Detección Inteligente: Utiliza modelos de Sequence Classification para identificar patrones sospechosos que escapan a los filtros tradicionales.
-
-    Motor Híbrido: En caso de fallo en la carga del modelo IA, el sistema conmuta automáticamente a un escaneo de palabras clave (firmas) de alta criticidad.
-
-    Arquitectura Modular: Diseñado para ser integrado en flujos de auditoría web y monitoreo de infraestructura.
+### Key Features
+*   **Intelligent Detection**: Uses `Sequence Classification` models to identify suspicious patterns that bypass traditional filters.
+*   **Hybrid Engine**: In case of AI model loading failure, the system automatically switches to high-criticity keyword (signature) scanning.
+*   **Modular Architecture**: Designed to be integrated into web auditing workflows and infrastructure monitoring.
