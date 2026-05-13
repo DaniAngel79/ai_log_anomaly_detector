@@ -7,3 +7,8 @@ Proof of Concept (PoC) for automated anomaly detection in system logs using **Tr
 *   **Intelligent Detection**: Uses `Sequence Classification` models to identify suspicious patterns that bypass traditional filters.
 *   **Hybrid Engine**: In case of AI model loading failure, the system automatically switches to high-criticity keyword (signature) scanning.
 *   **Modular Architecture**: Designed to be integrated into web auditing workflows and infrastructure monitoring.
+### Usage
+1. Install dependencies:
+   `pip install -r requirements.txt`
+2. Run the detector:
+   `python anomaly_detector.py --file your_system.log`
